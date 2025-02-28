@@ -1,0 +1,25 @@
+# Ignorer BDD
+/db_data
+
+# Ignorer le Core WordPress
+/wordpress_data/wp-admin/
+/wordpress_data/wp-includes/
+/wordpress_data/wp-content/themes/twentytwentyfive
+/wordpress_data/wp-content/themes/twentytwentythree
+/wordpress_data/wp-content/themes/twentytwentytwo
+
+
+# Ignorer les téléchargements (images, médias)
+/wordpress_data/wp-content/uploads/
+
+# Ignorer les fichiers de cache et temporaires
+*.log
+*.tmp
+/wordpress_data/.htaccess
+error_log
+debug.log
+
+# Ignorer les fichiers de configuration locales
+/wordpress_data/wp-config.php
+wordpress-docker.iml
+.idea
